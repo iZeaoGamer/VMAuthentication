@@ -1,9 +1,11 @@
 <?php
 
 namespace VMAuthentication\provider;
+
 use pocketmine\IPlayer;
 use pocketmine\utils\Config;
 use VMAuthentication\VMAuthentication;
+
 interface DataProvider{
 	/**
 	 * @param IPlayer $player
@@ -40,3 +42,4 @@ interface DataProvider{
 	 */
 	public function updatePlayer(IPlayer $player, $lastId = null, $ip = null, $loginDate = null, $cid = null, $skinhash = null, $pin = null);
 	public function close();
+}
