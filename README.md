@@ -2,10 +2,24 @@
 Welcome to another plugin I've made! It's called: VMAuthentication.
 ## How does this work?
 This plugin is mainly designed for authentication. If you want your server fully secured, without any impersonators or hackers, then you can add this to your server.
+
+## FEATURES
+
+- /login compatibilitie.
+
+- No need to register using your email. Only password.
+
+- Type your password directly in chat to register / login. (Optional.)
+
+- No more impersonators.
+
+- Always bumping, and updating the versions of the plugin.
+
+- Block you from giving out your password in chat. (Optional via config.)
 ## How to install?
 1. Download the latest Builds from: https://poggit.pmmp.io/ci/iZeaoGamer/VMAuthentication/VMAuthentication
 2. It should come as a .phar file.
-3. When you've downloaded it, add the .phar file from your server files. Go to plugins files where you keep your plugins, and then put it 4. there.
+3. When you've downloaded it, add the .phar file from your server files. Go to plugins files where you keep your plugins, and then put it in the plugins folder.
 5. When you've done that, restart the server.
 That's all complete.
 If you have any issues occuring, please open the issues tab. I will try and get it fixed ASAP.
@@ -43,6 +57,18 @@ Q.5: For now, you can review it in the issues tab. We are working on making a re
 
 ## Known issues we are working on:
 
-## When using /login, or /register, nothing will popup
+- When using /login, or /register, nothing will popup
 
-## Bunch of errors popup randomly.
+- Bunch of errors popup randomly.
+
+- Config file does not generate.
+
+## To-do list
+
+- Fix config file.
+
+- Add AntiHack Detection.
+
+- Fix errors popping up in console.
+
+- Fix /login and /register.
